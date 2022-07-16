@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GimBle_Example' do
+  pod 'GimBle', :path => '../'
+
+  target 'GimBle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
