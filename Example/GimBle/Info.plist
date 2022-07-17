@@ -35,5 +35,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Bluetooth is for communicating between the bike and the App</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Bluetooth is for communicating between the bike and the App</string>
 </dict>
 </plist>

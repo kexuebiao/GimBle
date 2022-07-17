@@ -1,0 +1,16 @@
+PODS:
+  - GimBle (0.1.0)
+
+DEPENDENCIES:
+  - GimBle (from `../`)
+
+EXTERNAL SOURCES:
+  GimBle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GimBle: f96bdc1892f476305d0dcdeb468222f298c75e26
+
+PODFILE CHECKSUM: 511de0c6debd34597c8b766aaef350d55bd13b81
+
+COCOAPODS: 1.11.2

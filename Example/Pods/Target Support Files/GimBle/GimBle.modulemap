@@ -1,0 +1,6 @@
+framework module GimBle {
+  umbrella header "GimBle-umbrella.h"
+
+  export *
+  module * { export * }
+}

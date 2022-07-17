@@ -1,0 +1,22 @@
+framework module GimKit {
+
+    umbrella header "GimKit.h"  
+
+    export *
+    module * {export *}
+
+    explicit module GimKit_Private {
+       header "slipdev.h"
+       header "GKMethods.h"
+       header "GKLog.h"
+       link "CNative"
+       export *
+    }
+
+}
+
+
+module GimKit.Swift {
+    header "GimKit-Swift.h"
+    requires objc
+}

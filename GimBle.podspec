@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'GimBle/Classes/**/*'
+  s.vendored_frameworks = ['Frameworks/GimKit.xcframework']
   
   # s.resource_bundles = {
   #   'GimBle' => ['GimBle/Assets/*.png']
